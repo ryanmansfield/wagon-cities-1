@@ -1,6 +1,6 @@
 import React, { Component }from 'react';
 
-class City extends Component {
+class ActiveCity extends Component {
   render () {
     <div>
       // TODO
@@ -8,4 +8,4 @@ class City extends Component {
   }
 }
 
-export default City;
+export default ActiveCity;
