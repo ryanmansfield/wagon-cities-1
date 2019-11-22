@@ -5,7 +5,7 @@ import { bindActionCreators } from 'redux';
 import City from '../containers/city';
 
 class CityList extends Component {
-  renderList () {
+  renderList() {
     return this.props.cities.map((city) => {
       return (
         <City key={city.name} city={city} />
@@ -13,9 +13,9 @@ class CityList extends Component {
     });
   };
 
-  render () {
+  render() {
     return (
-      <ul classname="list-group cities">
+      <ul className="list-group cities">
         {this.renderList()}
       </ul>
     );
