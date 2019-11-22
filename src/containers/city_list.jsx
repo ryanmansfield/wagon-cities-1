@@ -2,9 +2,11 @@ import React, { Component }from 'react';
 
 class CityList extends Component {
   render () {
-    <div>
-      // TODO
-    </div>
+    return (
+      <div>
+        // TODO
+      </div>
+    )
   }
 }
 
