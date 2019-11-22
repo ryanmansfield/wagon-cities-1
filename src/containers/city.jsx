@@ -7,8 +7,8 @@ import selectCity from '../actions/index';
 const City = (props) => {
   return (
     <li
-      classname="list-group-item"
-      onClick= {() => props.selectCity(props.city)}
+      className="list-group-item"
+      onClick={() => props.selectCity(props.city)}
     >{props.city.name}</li>
   );
 };

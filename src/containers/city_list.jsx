@@ -1,4 +1,4 @@
-import React, { Component }from 'react';
+import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 
@@ -15,7 +15,7 @@ class CityList extends Component {
 
   render () {
     return (
-      <ul classname="list-group cities"
+      <ul classname="list-group cities">
         {this.renderList()}
       </ul>
     );
